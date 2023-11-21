@@ -7,13 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		162E525E2B0B591100B4C9C3 /* ffw_szyszyloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E525D2B0B591100B4C9C3 /* ffw_szyszyloApp.swift */; };
+		162E525E2B0B591100B4C9C3 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E525D2B0B591100B4C9C3 /* Main.swift */; };
 		162E52602B0B591100B4C9C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E525F2B0B591100B4C9C3 /* ContentView.swift */; };
 		162E52622B0B591200B4C9C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162E52612B0B591200B4C9C3 /* Assets.xcassets */; };
-		162E52652B0B591200B4C9C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162E52642B0B591200B4C9C3 /* Preview Assets.xcassets */; };
 		162E526F2B0B591200B4C9C3 /* ffw_szyszyloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E526E2B0B591200B4C9C3 /* ffw_szyszyloTests.swift */; };
-		162E52792B0B591200B4C9C3 /* ffw_szyszyloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52782B0B591200B4C9C3 /* ffw_szyszyloUITests.swift */; };
-		162E527B2B0B591200B4C9C3 /* ffw_szyszyloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E527A2B0B591200B4C9C3 /* ffw_szyszyloUITestsLaunchTests.swift */; };
+		162E528D2B0B5C4800B4C9C3 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E528C2B0B5C4800B4C9C3 /* TargetType.swift */; };
+		162E52912B0B5D6300B4C9C3 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52902B0B5D6300B4C9C3 /* HTTPMethod.swift */; };
+		162E52932B0B5E1600B4C9C3 /* RemoteDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52922B0B5E1600B4C9C3 /* RemoteDataStore.swift */; };
+		162E52952B0B5E5D00B4C9C3 /* StarWarsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52942B0B5E5D00B4C9C3 /* StarWarsAPI.swift */; };
+		162E52982B0B5F6300B4C9C3 /* URL+TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52972B0B5F6300B4C9C3 /* URL+TargetType.swift */; };
+		162E529B2B0B62E100B4C9C3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E529A2B0B62E100B4C9C3 /* Person.swift */; };
+		162E529D2B0B631100B4C9C3 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E529C2B0B631100B4C9C3 /* Film.swift */; };
+		162E529F2B0B632400B4C9C3 /* StarShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E529E2B0B632400B4C9C3 /* StarShip.swift */; };
+		162E52A12B0B636000B4C9C3 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52A02B0B636000B4C9C3 /* Vehicle.swift */; };
+		162E52A32B0B638300B4C9C3 /* Spcecies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52A22B0B638300B4C9C3 /* Spcecies.swift */; };
+		162E52A52B0B639600B4C9C3 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52A42B0B639600B4C9C3 /* Planet.swift */; };
+		162E52A72B0B65BF00B4C9C3 /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52A62B0B65BF00B4C9C3 /* Networker.swift */; };
+		162E52A92B0B6EE800B4C9C3 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52A82B0B6EE800B4C9C3 /* Repository.swift */; };
+		162E52AD2B0B807000B4C9C3 /* GetPersonUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52AC2B0B807000B4C9C3 /* GetPersonUC.swift */; };
+		162E52AF2B0B807600B4C9C3 /* GetFilmUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52AE2B0B807600B4C9C3 /* GetFilmUC.swift */; };
+		162E52B12B0B807B00B4C9C3 /* GetVehicleUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52B02B0B807B00B4C9C3 /* GetVehicleUC.swift */; };
+		162E52B32B0B807C00B4C9C3 /* GetSpecieUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52B22B0B807C00B4C9C3 /* GetSpecieUC.swift */; };
+		162E52B52B0B807D00B4C9C3 /* GetStarShipUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52B42B0B807D00B4C9C3 /* GetStarShipUC.swift */; };
+		162E52B72B0B807E00B4C9C3 /* GetPlanetUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52B62B0B807E00B4C9C3 /* GetPlanetUC.swift */; };
+		162E52B92B0B83DF00B4C9C3 /* UseCaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52B82B0B83DF00B4C9C3 /* UseCaseError.swift */; };
+		162E52BC2B0B83FC00B4C9C3 /* UseCaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52BB2B0B83FC00B4C9C3 /* UseCaseResult.swift */; };
+		162E52C12B0B864300B4C9C3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52C02B0B864300B4C9C3 /* ViewModel.swift */; };
+		162E52C42B0B9EEC00B4C9C3 /* FilmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52C32B0B9EEC00B4C9C3 /* FilmView.swift */; };
+		162E52C72B0BA37700B4C9C3 /* RepositoryResult+UseCaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52C62B0BA0E900B4C9C3 /* RepositoryResult+UseCaseResult.swift */; };
+		162E52CA2B0BA6E000B4C9C3 /* String+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52C92B0BA6E000B4C9C3 /* String+Date.swift */; };
+		162E52CC2B0BADB200B4C9C3 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52CB2B0BADB200B4C9C3 /* PersonView.swift */; };
+		162E52CE2B0BADB400B4C9C3 /* VehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52CD2B0BADB400B4C9C3 /* VehicleView.swift */; };
+		162E52D02B0BADB500B4C9C3 /* StarShipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52CF2B0BADB500B4C9C3 /* StarShipView.swift */; };
+		162E52D22B0BADB600B4C9C3 /* PlanetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52D12B0BADB600B4C9C3 /* PlanetView.swift */; };
+		162E52D42B0BBA4500B4C9C3 /* SpeciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52D32B0BBA4500B4C9C3 /* SpeciesView.swift */; };
+		162E52D82B0BBEFC00B4C9C3 /* UseCaseError+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162E52D72B0BBEFC00B4C9C3 /* UseCaseError+View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +63,43 @@
 
 /* Begin PBXFileReference section */
 		162E525A2B0B591100B4C9C3 /* ffw_szyszylo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ffw_szyszylo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		162E525D2B0B591100B4C9C3 /* ffw_szyszyloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ffw_szyszyloApp.swift; sourceTree = "<group>"; };
+		162E525D2B0B591100B4C9C3 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		162E525F2B0B591100B4C9C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		162E52612B0B591200B4C9C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		162E52642B0B591200B4C9C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		162E526A2B0B591200B4C9C3 /* ffw_szyszyloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ffw_szyszyloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		162E526E2B0B591200B4C9C3 /* ffw_szyszyloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ffw_szyszyloTests.swift; sourceTree = "<group>"; };
 		162E52742B0B591200B4C9C3 /* ffw_szyszyloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ffw_szyszyloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		162E52782B0B591200B4C9C3 /* ffw_szyszyloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ffw_szyszyloUITests.swift; sourceTree = "<group>"; };
-		162E527A2B0B591200B4C9C3 /* ffw_szyszyloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ffw_szyszyloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		162E528C2B0B5C4800B4C9C3 /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		162E52902B0B5D6300B4C9C3 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		162E52922B0B5E1600B4C9C3 /* RemoteDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataStore.swift; sourceTree = "<group>"; };
+		162E52942B0B5E5D00B4C9C3 /* StarWarsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsAPI.swift; sourceTree = "<group>"; };
+		162E52972B0B5F6300B4C9C3 /* URL+TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+TargetType.swift"; sourceTree = "<group>"; };
+		162E529A2B0B62E100B4C9C3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		162E529C2B0B631100B4C9C3 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		162E529E2B0B632400B4C9C3 /* StarShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShip.swift; sourceTree = "<group>"; };
+		162E52A02B0B636000B4C9C3 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		162E52A22B0B638300B4C9C3 /* Spcecies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spcecies.swift; sourceTree = "<group>"; };
+		162E52A42B0B639600B4C9C3 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		162E52A62B0B65BF00B4C9C3 /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
+		162E52A82B0B6EE800B4C9C3 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		162E52AC2B0B807000B4C9C3 /* GetPersonUC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPersonUC.swift; sourceTree = "<group>"; };
+		162E52AE2B0B807600B4C9C3 /* GetFilmUC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFilmUC.swift; sourceTree = "<group>"; };
+		162E52B02B0B807B00B4C9C3 /* GetVehicleUC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetVehicleUC.swift; sourceTree = "<group>"; };
+		162E52B22B0B807C00B4C9C3 /* GetSpecieUC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSpecieUC.swift; sourceTree = "<group>"; };
+		162E52B42B0B807D00B4C9C3 /* GetStarShipUC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStarShipUC.swift; sourceTree = "<group>"; };
+		162E52B62B0B807E00B4C9C3 /* GetPlanetUC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPlanetUC.swift; sourceTree = "<group>"; };
+		162E52B82B0B83DF00B4C9C3 /* UseCaseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseError.swift; sourceTree = "<group>"; };
+		162E52BB2B0B83FC00B4C9C3 /* UseCaseResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseResult.swift; sourceTree = "<group>"; };
+		162E52C02B0B864300B4C9C3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		162E52C32B0B9EEC00B4C9C3 /* FilmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmView.swift; sourceTree = "<group>"; };
+		162E52C62B0BA0E900B4C9C3 /* RepositoryResult+UseCaseResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RepositoryResult+UseCaseResult.swift"; sourceTree = "<group>"; };
+		162E52C92B0BA6E000B4C9C3 /* String+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Date.swift"; sourceTree = "<group>"; };
+		162E52CB2B0BADB200B4C9C3 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		162E52CD2B0BADB400B4C9C3 /* VehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleView.swift; sourceTree = "<group>"; };
+		162E52CF2B0BADB500B4C9C3 /* StarShipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShipView.swift; sourceTree = "<group>"; };
+		162E52D12B0BADB600B4C9C3 /* PlanetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetView.swift; sourceTree = "<group>"; };
+		162E52D32B0BBA4500B4C9C3 /* SpeciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesView.swift; sourceTree = "<group>"; };
+		162E52D72B0BBEFC00B4C9C3 /* UseCaseError+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UseCaseError+View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +130,10 @@
 		162E52512B0B591100B4C9C3 = {
 			isa = PBXGroup;
 			children = (
-				162E525C2B0B591100B4C9C3 /* ffw_szyszylo */,
-				162E526D2B0B591200B4C9C3 /* ffw_szyszyloTests */,
-				162E52772B0B591200B4C9C3 /* ffw_szyszyloUITests */,
+				162E52882B0B593900B4C9C3 /* Data */,
+				162E52AB2B0B806100B4C9C3 /* Domain */,
+				162E525C2B0B591100B4C9C3 /* View */,
+				162E526D2B0B591200B4C9C3 /* Tests */,
 				162E525B2B0B591100B4C9C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,40 +148,131 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		162E525C2B0B591100B4C9C3 /* ffw_szyszylo */ = {
+		162E525C2B0B591100B4C9C3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				162E525D2B0B591100B4C9C3 /* ffw_szyszyloApp.swift */,
+				162E52C32B0B9EEC00B4C9C3 /* FilmView.swift */,
+				162E52CB2B0BADB200B4C9C3 /* PersonView.swift */,
+				162E52CD2B0BADB400B4C9C3 /* VehicleView.swift */,
+				162E52CF2B0BADB500B4C9C3 /* StarShipView.swift */,
+				162E52D12B0BADB600B4C9C3 /* PlanetView.swift */,
+				162E52D32B0BBA4500B4C9C3 /* SpeciesView.swift */,
+				162E52872B0B593400B4C9C3 /* Resources */,
+				162E52C82B0BA6D400B4C9C3 /* Extensions */,
+				162E525D2B0B591100B4C9C3 /* Main.swift */,
 				162E525F2B0B591100B4C9C3 /* ContentView.swift */,
-				162E52612B0B591200B4C9C3 /* Assets.xcassets */,
-				162E52632B0B591200B4C9C3 /* Preview Content */,
+				162E52C02B0B864300B4C9C3 /* ViewModel.swift */,
 			);
-			path = ffw_szyszylo;
+			path = View;
 			sourceTree = "<group>";
 		};
-		162E52632B0B591200B4C9C3 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				162E52642B0B591200B4C9C3 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		162E526D2B0B591200B4C9C3 /* ffw_szyszyloTests */ = {
+		162E526D2B0B591200B4C9C3 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				162E526E2B0B591200B4C9C3 /* ffw_szyszyloTests.swift */,
 			);
-			path = ffw_szyszyloTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
-		162E52772B0B591200B4C9C3 /* ffw_szyszyloUITests */ = {
+		162E52872B0B593400B4C9C3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				162E52782B0B591200B4C9C3 /* ffw_szyszyloUITests.swift */,
-				162E527A2B0B591200B4C9C3 /* ffw_szyszyloUITestsLaunchTests.swift */,
+				162E52612B0B591200B4C9C3 /* Assets.xcassets */,
 			);
-			path = ffw_szyszyloUITests;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		162E52882B0B593900B4C9C3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				162E52C52B0BA0E500B4C9C3 /* Extensions */,
+				162E52922B0B5E1600B4C9C3 /* RemoteDataStore.swift */,
+				162E52A82B0B6EE800B4C9C3 /* Repository.swift */,
+				162E52BD2B0B846300B4C9C3 /* Entity */,
+				162E528B2B0B5C3E00B4C9C3 /* Networking */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		162E528B2B0B5C3E00B4C9C3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				162E52992B0B62D700B4C9C3 /* API */,
+				162E52962B0B5F5100B4C9C3 /* Extensions */,
+				162E52902B0B5D6300B4C9C3 /* HTTPMethod.swift */,
+				162E528C2B0B5C4800B4C9C3 /* TargetType.swift */,
+				162E52A62B0B65BF00B4C9C3 /* Networker.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		162E52962B0B5F5100B4C9C3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				162E52972B0B5F6300B4C9C3 /* URL+TargetType.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		162E52992B0B62D700B4C9C3 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				162E52942B0B5E5D00B4C9C3 /* StarWarsAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		162E52AB2B0B806100B4C9C3 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				162E52BA2B0B83ED00B4C9C3 /* Utility */,
+				162E52AE2B0B807600B4C9C3 /* GetFilmUC.swift */,
+				162E52B02B0B807B00B4C9C3 /* GetVehicleUC.swift */,
+				162E52B42B0B807D00B4C9C3 /* GetStarShipUC.swift */,
+				162E52B62B0B807E00B4C9C3 /* GetPlanetUC.swift */,
+				162E52B22B0B807C00B4C9C3 /* GetSpecieUC.swift */,
+				162E52AC2B0B807000B4C9C3 /* GetPersonUC.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		162E52BA2B0B83ED00B4C9C3 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				162E52BB2B0B83FC00B4C9C3 /* UseCaseResult.swift */,
+				162E52B82B0B83DF00B4C9C3 /* UseCaseError.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		162E52BD2B0B846300B4C9C3 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				162E529C2B0B631100B4C9C3 /* Film.swift */,
+				162E529E2B0B632400B4C9C3 /* StarShip.swift */,
+				162E529A2B0B62E100B4C9C3 /* Person.swift */,
+				162E52A22B0B638300B4C9C3 /* Spcecies.swift */,
+				162E52A42B0B639600B4C9C3 /* Planet.swift */,
+				162E52A02B0B636000B4C9C3 /* Vehicle.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		162E52C52B0BA0E500B4C9C3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				162E52C62B0BA0E900B4C9C3 /* RepositoryResult+UseCaseResult.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		162E52C82B0BA6D400B4C9C3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				162E52C92B0BA6E000B4C9C3 /* String+Date.swift */,
+				162E52D72B0BBEFC00B4C9C3 /* UseCaseError+View.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +363,8 @@
 				Base,
 			);
 			mainGroup = 162E52512B0B591100B4C9C3;
+			packageReferences = (
+			);
 			productRefGroup = 162E525B2B0B591100B4C9C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,7 +381,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				162E52652B0B591200B4C9C3 /* Preview Assets.xcassets in Resources */,
 				162E52622B0B591200B4C9C3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +406,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				162E52A12B0B636000B4C9C3 /* Vehicle.swift in Sources */,
+				162E52AD2B0B807000B4C9C3 /* GetPersonUC.swift in Sources */,
+				162E529F2B0B632400B4C9C3 /* StarShip.swift in Sources */,
+				162E52B12B0B807B00B4C9C3 /* GetVehicleUC.swift in Sources */,
+				162E52912B0B5D6300B4C9C3 /* HTTPMethod.swift in Sources */,
+				162E52952B0B5E5D00B4C9C3 /* StarWarsAPI.swift in Sources */,
+				162E52A72B0B65BF00B4C9C3 /* Networker.swift in Sources */,
+				162E52C72B0BA37700B4C9C3 /* RepositoryResult+UseCaseResult.swift in Sources */,
+				162E52BC2B0B83FC00B4C9C3 /* UseCaseResult.swift in Sources */,
+				162E528D2B0B5C4800B4C9C3 /* TargetType.swift in Sources */,
+				162E52A52B0B639600B4C9C3 /* Planet.swift in Sources */,
 				162E52602B0B591100B4C9C3 /* ContentView.swift in Sources */,
-				162E525E2B0B591100B4C9C3 /* ffw_szyszyloApp.swift in Sources */,
+				162E52B72B0B807E00B4C9C3 /* GetPlanetUC.swift in Sources */,
+				162E52D22B0BADB600B4C9C3 /* PlanetView.swift in Sources */,
+				162E52A32B0B638300B4C9C3 /* Spcecies.swift in Sources */,
+				162E52B52B0B807D00B4C9C3 /* GetStarShipUC.swift in Sources */,
+				162E52982B0B5F6300B4C9C3 /* URL+TargetType.swift in Sources */,
+				162E52CA2B0BA6E000B4C9C3 /* String+Date.swift in Sources */,
+				162E529D2B0B631100B4C9C3 /* Film.swift in Sources */,
+				162E52A92B0B6EE800B4C9C3 /* Repository.swift in Sources */,
+				162E52D02B0BADB500B4C9C3 /* StarShipView.swift in Sources */,
+				162E52B92B0B83DF00B4C9C3 /* UseCaseError.swift in Sources */,
+				162E52D42B0BBA4500B4C9C3 /* SpeciesView.swift in Sources */,
+				162E52CE2B0BADB400B4C9C3 /* VehicleView.swift in Sources */,
+				162E529B2B0B62E100B4C9C3 /* Person.swift in Sources */,
+				162E525E2B0B591100B4C9C3 /* Main.swift in Sources */,
+				162E52C42B0B9EEC00B4C9C3 /* FilmView.swift in Sources */,
+				162E52B32B0B807C00B4C9C3 /* GetSpecieUC.swift in Sources */,
+				162E52CC2B0BADB200B4C9C3 /* PersonView.swift in Sources */,
+				162E52AF2B0B807600B4C9C3 /* GetFilmUC.swift in Sources */,
+				162E52C12B0B864300B4C9C3 /* ViewModel.swift in Sources */,
+				162E52D82B0BBEFC00B4C9C3 /* UseCaseError+View.swift in Sources */,
+				162E52932B0B5E1600B4C9C3 /* RemoteDataStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +454,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				162E52792B0B591200B4C9C3 /* ffw_szyszyloUITests.swift in Sources */,
-				162E527B2B0B591200B4C9C3 /* ffw_szyszyloUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +599,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ffw_szyszylo/Preview Content\"";
 				DEVELOPMENT_TEAM = 96SFC4GC2K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -450,7 +627,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ffw_szyszylo/Preview Content\"";
 				DEVELOPMENT_TEAM = 96SFC4GC2K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
